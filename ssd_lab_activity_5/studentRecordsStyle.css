@@ -1,0 +1,94 @@
+#dataEntryFormContainer{
+    width: 50%;
+    /* border: 2px solid black; */
+    display: inline;
+}
+
+#heading{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+}
+
+body{
+    /* background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%); */
+    background-color: #bdbddb;  
+    background: linear-gradient(135deg, #2c597655 25%, transparent 25%) -22px 0/ 44px 44px, linear-gradient(225deg, #2c5976 25%, transparent 25%) -22px 0/ 44px 44px, linear-gradient(315deg, #2c597655 25%, transparent 25%) 0px 0/ 44px 44px, linear-gradient(45deg, #2c5976 25%, #bdbddb 25%) 0px 0/ 44px 44px;
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+}
+
+#dataEntryTableContainer{
+    margin-top: 2em;
+    width: 60%;
+}
+
+html *
+{
+   font-size: 1em !important;
+   color: #000 !important;
+   font-family: Arial !important;
+}
+
+#dataEntryContainer{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.5em;
+    position: relative;
+    border: 2px solid red;
+    background-color: aliceblue;
+}
+
+#addNewButton{
+    border: none;
+    color: white;
+    padding: 0.3em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #4CAF50;
+    border-radius: 0.3em;
+}
+
+#deleteButton{
+    margin-top: 1em;
+    width: 35%;
+    border: none;
+    color: white;
+    padding: 0.3em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ff4545;
+    border-radius: 0.3em;
+}
+
+
+th {
+    background-color: #008299;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #38bfd7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #78d0df;
+}
+
+table {
+    width: 100%;
+    background-color: #003451;
+}
+
+th, td{
+    padding: 1em;
+    text-align: center;
+}
+
+
+#blank{
+    height: 12em;
+}

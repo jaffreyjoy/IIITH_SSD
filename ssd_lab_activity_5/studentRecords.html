@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studentRecordsStyle.css">
+    <script src="studentRecordsScript.js"></script>
+    <title>Student Records</title>
+</head>
+<body>
+    <div id="srpage">
+        <h1 id="heading">Student Records</h1>
+        <div id="dataEntryContainer">
+            <div id="dataEntryFormContainer">
+                <div id="loginChildCont">
+                    <input id="rollnoRecord" type="text" placeholder="Roll No.">
+                    <input id="nameRecord" type="text" placeholder="Name">
+                    <input onclick="addData()" id="addNewButton" type="submit" value="Add New">
+                </div>
+                <div id="dataEntryTableContainer">
+                    <table id="dataEntryTable">
+                        <th>Roll No</th> <th>Name</th>
+                        <tr>
+                            <td>12</td>
+                            <td>Robert Brown</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Robert Brown</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Robert Brown</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Robert Brown</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="dataEntryDeleteContainer">
+                <input onclick="deleteData()" id="deleteButton" type="submit" value="Delete Last Entry">
+            </div>
+        </div>
+        <div id="blank">
+        </div>
+    </div>
+</body>
+</html>
