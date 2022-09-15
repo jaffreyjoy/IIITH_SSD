@@ -1,0 +1,102 @@
+body{
+    margin: 35px;
+}
+
+form{
+    display: table;
+}
+
+div.team-form-row {
+    display: table-row;
+}
+
+label, input, select {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+select{
+    margin-left: 50px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+input{
+    margin-left: 50px;
+    border: black solid 1.5px;
+    border-radius: 5px;
+}
+
+/* input:invalid {
+    border: red solid 2px;
+    border-radius: 5px;
+} */
+
+
+
+#invaliderrdiv{
+    display: none;
+}
+
+#invaliderr{
+    display: inline;
+    color: crimson;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+#fromto{
+    display: table;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#from{
+    display: table-cell;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    border: 2px solid black;
+}
+
+#to{
+    display: table-cell;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px solid black;
+}
+
+.tmember{
+    border: 1px solid black;
+    background-color: rgb(125, 222, 222);
+    padding: 3px;
+    padding-right: 50px;
+}
+
+.tmemberto{
+    border: 1px solid black;
+    background-color: rgb(188, 131, 219);
+    padding: 3px;
+    padding-right: 50px;
+}
+
+#submitbtn{
+    margin-left: 0px;
+    width: 100px;
+    height: 30px;
+    background-color: teal;
+    color: white;
+    font-weight: bolder;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,1 @@
+> for toggling dark mode use the `/` key

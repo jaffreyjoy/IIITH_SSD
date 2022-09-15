@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="text-align: center; margin-bottom: 50px;">Team Form</h2>
+    <form action="" class="team-form-row">
+        <div class="team-form-row">
+          <label for="mname">Manager Name: </label>
+          <input type="text" name="mname" id="mname" required>
+        </div>
+        <div class="team-form-row">
+          <label for="email">Group Email: </label>
+          <input type="email" name="gemail" id="gemail" required>
+        </div>
+        <div class="team-form-row">
+          <label for="uname">Server Username: </label>
+          <input type="text" oninput="validate_uname()" name="uname" id="uname" required>
+          <div id="invaliderrdiv">
+            <label id="invaliderr">Invalid Username</label>
+          </div>
+        </div>
+        <div class="team-form-row">
+          <label for="passw">Server Password: </label>
+          <input type="password" name="passw" id="passw" required>
+        </div>
+        <div class="team-form-row">
+          <label for="rpassw">Confirm Password: </label>
+          <input type="password" name="rpassw" id="rpassw" required>
+        </div>
+        <div class="team-form-row">
+          <label for="tlead">Team Lead: </label>
+          <select name="tlead" id="tlead" required>
+            <option value="Jon Snow">Jon Snow</option>
+            <option value="Robb Stark">Robb Stark</option>
+            <option value="Tyrion Lannister">Tyrion Lannister</option>
+          </select>
+        </div>
+        <div id="fromtocont" class="team-form-row">
+          <label for="tmembers">Team Members: </label>
+          <div id="fromto">
+            <div id="from">
+              <p class="tmember">Sansa</p>
+              <p class="tmember">Drogon</p>
+              <p class="tmember">Cercei</p>
+            </div>
+            <div id="to">
+              <p class="tmemberto">Sansa</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="team-form-row">
+          <input onclick="submit_click()" id="submitbtn" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
